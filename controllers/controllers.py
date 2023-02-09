@@ -7,8 +7,9 @@ import requests
 from odoo import http, _, exceptions
 from odoo.http import request
 
-from .serializers import Serializer
-from .exceptions import QueryFormatError
+from django.core.serializers import serialize
+from exceptions import QueryFormatError
+
 
 
 _logger = logging.getLogger(__name__)

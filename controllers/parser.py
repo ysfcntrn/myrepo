@@ -2,7 +2,7 @@ import re
 
 from pypeg2 import List, contiguous, csl, name, optional, parse
 
-from .exceptions import QueryFormatError
+from exceptions import QueryFormatError
 
 
 class IncludedField(List):

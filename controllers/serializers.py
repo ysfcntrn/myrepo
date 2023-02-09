@@ -2,8 +2,8 @@
 import datetime
 from itertools import chain
 
-from .parser import Parser
-from .exceptions import QueryFormatError
+from parser import Parser
+from exceptions import QueryFormatError
 
 
 class Serializer(object):
